@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Playball&family=Poppins:wght@300;500;600&family=Righteous&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat+Alternates:ital,wght@0,200;1,100;1,200&family=Oswald:wght@200;300;400;500;600;700&family=Playball&family=Poppins:wght@300;500;600&family=Righteous&family=Twinkle+Star&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat+Alternates:ital,wght@0,200;1,100;1,200&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,700;1,300;1,400;1,500&family=Oswald:wght@200;300;400;500;600;700&family=Playball&family=Poppins:wght@300;500;600&family=Righteous&family=Twinkle+Star&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat+Alternates:ital,wght@0,200;1,100;1,200&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,700;1,300;1,400;1,500&family=Oswald:wght@200;300;400;500;600;700&family=Playball&family=Poppins:wght@300;500;600&family=Righteous&family=Twinkle+Star&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 
 
@@ -12,7 +14,7 @@
 
 .main{
     width: 100%;
-    background: url(/img/bg.png);
+    background: url(./../img/bg.png);
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -290,4 +292,115 @@ ul li a:hover{
     margin-right: 40px;
     text-align: justify;
 
+}
+
+
+
+
+
+
+.ourservice{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900px;
+    
+
+}
+
+
+.rk-service{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container{
+    position: relative;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container .service-box{
+    position: relative;
+    width: 300px;
+    height: 280px;
+    background-color: #51446e;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.container .service-box .service-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--i);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transition-delay: 0.25s;
+}
+
+.container .service-box:hover .service-icon{
+    top: 30px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    transition-delay: 0s;
+
+}
+
+
+.container .service-box .service-icon ion-icon{
+    font-size: 10em;
+    color: white;
+    transition: 0.5s;
+}
+
+.container .service-box:hover .service-icon ion-icon{
+    font-size: 2em;
+}
+
+.container .service-box .service-content{
+    position: relative;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    z-index: 1;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+.container .service-box:hover .service-content{
+    transform: scale(1);
+    transition-delay: 0.25s;
+}
+
+
+.container .service-box .service-content h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.container .service-box .service-content p{
+    font-weight: 300;
+    font-weight: 1.5em;
 }
