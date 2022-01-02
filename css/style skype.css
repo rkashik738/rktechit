@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Playball&family=Righteous&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Playball&family=Poppins:wght@300;500;600&family=Righteous&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat+Alternates:ital,wght@0,200;1,100;1,200&family=Oswald:wght@200;300;400;500;600;700&family=Playball&family=Poppins:wght@300;500;600&family=Righteous&family=Twinkle+Star&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat+Alternates:ital,wght@0,200;1,100;1,200&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,700;1,300;1,400;1,500&family=Oswald:wght@200;300;400;500;600;700&family=Playball&family=Poppins:wght@300;500;600&family=Righteous&family=Twinkle+Star&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-top: -10%;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: 'Playball';
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-top: -10%;
+    margin-left: 150px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 870px;
+    margin-top: -8%;
+    color: white;
+    font-family: sans-serif;
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(/img/4\ \(2\).jpg);
+    font-family: sans-serif;
+}
+.skype-tilte{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 3s ease-in-out;
+}
+.skype-tilte h1{
+    font-size: 32px;
+    line-height: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.skype-tilte h3{
+    font-size: 16px;
+    font-family: 'Montserrat Alternates', sans-serif
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.from-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+
+}
+input{
+    height: 45px;
+}
+
+form .submit{
+    background-color: orange;
+    border-color: transparent;
+    color: #fff;
+    font-family: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover{
+    background-color: black;
+    cursor: pointer;
+}
