@@ -404,3 +404,37 @@ ul li a:hover{
     font-weight: 300;
     font-weight: 1.5em;
 }
+
+
+
+
+
+
+
+.choose-us{
+    display: flex;
+    margin: 30px;
+    text-align: justify;
+    padding-top: 40px;
+    
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 95%;
+    padding-right: -30px;
+}
+.choose-us .half-width h2{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 70px;
+}
+.choose-us .half-width p{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+    padding-top: 70px;
+}
